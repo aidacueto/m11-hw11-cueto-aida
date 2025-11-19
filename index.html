@@ -1,13 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Assignment</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Assignment</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" 
+        crossorigin="anonymous">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Aida Cueto</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#about">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hobbies">Hobbies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#goals">Career goals</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-light text-center py-5">
+    <h1 class="display-4">Hello! I'm Aida Cueto</h1>
+    <p class="lead">Exploring my hobbies, interests, and career goals</p>
+  </header>
+
+  <section id="about" class="container my-5">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-3 mb-md-0">
+        <img src="images/aida-cueto-pic.png" class="img-fluid rounded" alt="Berenice">
+      </div>
+      <div class="col-md-6">
+        <h2>About me</h2>
+        <p>I'm a web design student passionate about creating responsive, professional websites. I enjoy learning new technologies, designing layouts, and exploring creative solutions.</p>
+        <button class="btn btn-primary mt-3">Learn more</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="hobbies" class="container my-5">
+    <h2 class="mb-4 text-center">My hobbies</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400" class="card-img-top" alt="Photography">
+          <div class="card-body">
+            <h5 class="card-title">Photography</h5>
+            <p class="card-text">Capturing moments and exploring creative perspectives.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400" class="card-img-top" alt="Traveling">
+          <div class="card-body">
+            <h5 class="card-title">Traveling</h5>
+            <p class="card-text">Experiencing new cultures and discovering hidden gems around the world.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400" class="card-img-top" alt="Cooking">
+          <div class="card-body">
+            <h5 class="card-title">Cooking</h5>
+            <p class="card-text">Experimenting with recipes and flavors to create unique dishes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="goals" class="container my-5">
+    <h2 class="mb-4 text-center">Career Goals</h2>
+    <div class="row align-items-center">
+      <div class="col-lg-6 mb-3 mb-lg-0">
+        <p>My goal is to keep learning new skills in web design and explore my creativity in building websites that reflect my personality. I want to experiment with colors, layouts, and interactive features while sharing my hobbies and passions online. Eventually, I hope to combine my love for design, photography, and travel into projects that inspire others.</p>
+        <button class="btn btn-success">Contact me</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-primary text-white text-center py-3">
+    &copy; 2025 Berenice Cueto
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" 
+          integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" 
+          crossorigin="anonymous"></script>
+</body>
 </html>
+
